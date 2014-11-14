@@ -636,7 +636,8 @@ a#title-nav:hover {
   -ms-transition: color 0.3s ease 0s;
   transition: color 0.3s ease 0s;
 }
-.site-nav ul li a:hover {
+.site-nav ul li a:hover,
+.site-nav ul li a:focus {
   color: #258fb8;
   opacity: 1;
   -ms-filter: none;
